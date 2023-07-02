@@ -70,7 +70,7 @@ if __name__ == '__main__':
     logging.warning('Single process start.')
     a, b, c, d = sp_factorize(128, 255, 99999, 10651060)
     sleep(1)
-    logging.debug('Multi process start.')
+    logging.debug('\nMulti process start.')
     a, b, c, d = mp_factorize(128, 255, 99999, 10651060)
 
     # print(a)
